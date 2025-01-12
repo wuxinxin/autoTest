@@ -1,0 +1,38 @@
+{
+  "orderBuy": {
+    "body": {
+      "tenantId": "msxf1667272967688548c4fca",
+      "mealTemplateId": 10,
+      "buyNum": 1,
+      "beginDate": "2023-10-30",
+      "endDate": "2055-10-31",
+      "orderType": "SELL_ORDER",
+      "orderPrice": "0",
+      "sellName": "",
+      "sellDepartment": "",
+      "crmPresaleNo": "123456",
+      "crmOrderNo": "",
+      "crmOrderDetail": "",
+      "crmPrice": "",
+      "crmContract": "",
+      "remark": "",
+      "mealType": 2
+    }
+  },
+  "recharge": {
+    "body": {
+      "num": 100,
+      "resourceCount": 100,
+      "optSource": 1,
+      "optTenantId": "zkj1698048056183007a006b",
+      "remark": "",
+      "totalAmount": 100
+    }
+  },
+  "setLineOfCredit": {
+    "body": {
+      "optTenantId": "msxf169822864787981ea52a8",
+      "lineOfCredit": 2
+    }
+  }
+}

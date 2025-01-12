@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="[p0]智能外呼-外呼任务" verbose="1">
+    <test name="智能外呼-外呼任务">
+        <!--机器人id-->
+        <parameter name="robotID" value="NEWbe9c6ea8c4f1bbab9d93f2415d42c"/>
+        <parameter name="robotName" value="task外呼机器人1"/>
+
+        <classes>
+            <class name="com.example.dztest.testcase.smartoutcall.SmokeTask">
+                <methods>
+                    <include name="smartOutCall" description="智能外呼任务"/>
+<!--                    <include name="sms" description="对话短信"/>-->
+                    <include name="black" description="黑名单规则"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.example.dztest.extentreport.ExtentReportListener"></listener>
+    </listeners>
+</suite>

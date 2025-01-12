@@ -1,0 +1,20 @@
+{
+  "getRunningTaskCustomerList": {
+    "param": {
+      "pageNum": 1,
+      "pageSize": 20,
+      "outboundCallTaskId": 700017138
+    }
+  },
+  "getAudioUrlAndContents": {
+    "param": {
+      "sessionId": "2022052014273009223200019",
+      "type": "new"
+    }
+  },
+  "getRecordCallDetail": {
+    "body": {
+      "id":700033892
+    }
+  }
+}

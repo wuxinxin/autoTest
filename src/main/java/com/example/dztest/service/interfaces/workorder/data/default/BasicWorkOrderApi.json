@@ -1,0 +1,35 @@
+{
+  "createWorkOrder": {
+    "body": {
+      "orderStatus":2,
+      "processId":"GD00000001",
+      "orderName":"bbb",
+      "deadlineTime":"",
+      "priority":"0",
+      "customerId":"6523738415a34a37b5a02e1c02f7624a",
+      "endpointType":2,
+      "channelName":"操作台",
+      "channelType":"0",
+      "woOperateDtoList":[
+        {
+          "operateType":0,
+          "groupId":null,
+          "userId":700015003
+        }
+      ],
+      "attachmentInfo":"",
+      "orderExtDtoList":[
+        {
+          "itemCode":"orderStatus",
+          "itemValue":2
+        },
+        {
+          "itemCode":"customerPhone",
+          "itemValue":""
+        }
+      ],
+      "customerName":"匿名用户",
+      "customerPhone":""
+    }
+  }
+}

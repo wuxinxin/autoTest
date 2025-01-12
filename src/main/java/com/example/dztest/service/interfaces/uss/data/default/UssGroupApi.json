@@ -1,0 +1,11 @@
+{
+  "getUssGroupStaffs": {
+    "param":{
+      "pageNo": 1,
+      "pageSize": 20,
+      "searchInfo": "",
+      "groupId": "98a72a694bfd4038bc16d69e88eebce9",
+      "status": 1
+    }
+  }
+}

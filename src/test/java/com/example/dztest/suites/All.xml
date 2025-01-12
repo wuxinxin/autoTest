@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="得助主流程">
+    <suite-files>
+        <suite-file path="smartoutcall/SmokeTask.xml"/>
+        <suite-file path="smarttext/TextRobotQaTestC.xml"/>
+        <suite-file path="apiCase/基础平台.xml"/>
+        <suite-file path="asrBreak/AliAsrBreak.xml"/>
+        <suite-file path="asrBreak/ZyAsrBreak.xml"/>
+    </suite-files>
+    <listeners>
+        <listener class-name="com.example.dztest.extentreport.ExtentReportListener"></listener>
+    </listeners>
+</suite>

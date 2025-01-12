@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="基础模块接口测试用例执行" configfailurepolicy="continue">
+    <test name="基础平台-角色">
+        <!--         cases 指定执行的case的case名称，多个使用英文逗号分隔；全部使用*-->
+        <parameter name="case_file" value="cases/basic/p0-基础平台-角色.xlsx"/>
+        <parameter name="sheets" value="*"/>
+        <classes>
+            <class name="com.example.dztest.testcase.apiCase.myApiCase"/>
+        </classes>
+    </test>
+
+    <test name="基础平台-技能组">
+        <!--         cases 指定执行的case的case名称，多个使用英文逗号分隔；全部使用*-->
+        <parameter name="case_file" value="cases/basic/p0-基础平台-技能组.xlsx"/>
+        <parameter name="sheets" value="CS20231115027335-工单技能组增删改查"/>
+        <classes>
+            <class name="com.example.dztest.testcase.apiCase.myApiCase"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="com.example.dztest.apicase.ReporterListener.ExtendTestNGIReporterListenerNew"></listener>
+        <listener class-name="com.example.dztest.extentreport.DbReportListener"></listener>
+        <listener class-name="com.example.dztest.extentreport.ExcelReportListener"></listener>
+    </listeners>
+</suite>

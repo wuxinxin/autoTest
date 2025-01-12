@@ -1,0 +1,11 @@
+{
+  "getRecordListPage": {
+    "body": {
+      "pageNum":1,
+      "pageSize":20,
+      "type":"recordType",
+      "leftCallStartTime":"2022-05-23 00:00:00",
+      "rightCallStartTime":"2022-05-23 23:59:59"
+    }
+  }
+}

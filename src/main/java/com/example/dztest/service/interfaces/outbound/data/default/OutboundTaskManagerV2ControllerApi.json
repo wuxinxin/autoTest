@@ -1,0 +1,101 @@
+{
+  "createCallTask": {
+    "body": {
+      "flashSms": "{\"enable\":false,\"id\":\"\",\"name\":\"\"}",
+      "taskType": 1,
+      "checked": false,
+      "autoChecked": false,
+      "outboundCircleType": 1,
+      "aiSeatsFlag": 0,
+      "outboundLevel": 3,
+      "outboundStrategy": 2,
+      "abandonRate": null,
+      "aiSeatsNum": "1",
+      "fileId": "",
+      "maxRecallTimes": "",
+      "recallStatusArray": null,
+      "outboundCircleValueArray": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "outboundTimeInterval": "[\"00:00-23:59\"]",
+      "moreShow": false,
+      "ruleList": [
+        {
+          "level": "",
+          "id": [
+          ]
+        }
+      ],
+      "tagEmployeeStatus": 0,
+      "blacklistGroupIds": "",
+      "recallModel": 0,
+      "answerTimeout": 45,
+      "totalCount": 0,
+      "successCount": 0,
+      "repeatCount": 0,
+      "failCount": 0,
+      "taskName": "aaa",
+      "words": [
+        "NEW06df28d88453cb2b99ae9765350e5",
+        "bce251f3530741bca1964dd3fe3ad05e"
+      ],
+      "robotId": "NEW06df28d88453cb2b99ae9765350e5",
+      "dialogTaskId": "bce251f3530741bca1964dd3fe3ad05e",
+      "outboundNoGroup": "2064935762732056",
+      "outboundExpireDate": null,
+      "outboundDate": null,
+      "recallStatus": "",
+      "recallStrategy": null,
+      "outboundCircleValue": "1,2,3,4,5,6,7",
+      "ruleName": null,
+      "outboundPeriod": 1
+    }
+  },
+  "getRecordListPage": {
+    "body": {
+      "pageNum": 1,
+      "pageSize": 20,
+      "outboundCallTaskId": 700017143,
+      "type": "new"
+    }
+  },
+  "getRecordListPageStatus7": {
+    "body": {
+      "pageNum": 1,
+      "pageSize": 10000,
+      "outboundCallTaskId": 920069008,
+      "type": "new",
+      "callStatusList": [
+        7
+      ]
+    }
+  },
+  "getRecordListPageStatus7Page": {
+    "body": {
+      "pageNum": 1,
+      "pageSize": 10000,
+      "outboundCallTaskId": 920069008,
+      "type": "new",
+      "callStatusList": [
+        7
+      ]
+    }
+  },
+  "importListAndAck": {
+    "header": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "mode": "form-data",
+      "form-data": {
+        "ackFileId": "5facb4c4d4404d4ab7fb7809e92c1d4b"
+      }
+    }
+  }
+}

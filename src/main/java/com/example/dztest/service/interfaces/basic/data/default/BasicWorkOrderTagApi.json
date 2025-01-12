@@ -1,0 +1,14 @@
+{
+  "createWorkOrderTag": {
+    "body": {
+      "tagGroupId":"1",
+      "tagName":"aaa"
+    }
+  },
+  "deleteWorkOrderTag": {
+    "body":  {
+      "tagGroupId":"1",
+      "tagId":"123412341234"
+    }
+  }
+}

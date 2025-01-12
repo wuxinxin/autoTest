@@ -1,0 +1,10 @@
+{
+  "addPersonalKeyword": {
+    "body": {
+        "keyword": "test1",
+        "replyDetail": "test1",
+        "classifyFirstName": "",
+        "classifySecondName": ""
+      }
+  }
+}

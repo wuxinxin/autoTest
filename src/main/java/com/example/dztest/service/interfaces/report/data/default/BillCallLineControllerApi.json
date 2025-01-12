@@ -1,0 +1,12 @@
+{
+  "getBillDetail": {
+    "param": {
+      "startDay": "20231123",
+      "endDay": "20231123",
+      "pageNum": 1,
+      "pageSize": 20,
+      "vacStatus": 1,
+      "callType": 2
+    }
+  }
+}

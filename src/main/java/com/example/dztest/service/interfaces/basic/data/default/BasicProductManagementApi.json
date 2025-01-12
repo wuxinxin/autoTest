@@ -1,0 +1,10 @@
+{
+  "addProduct": {
+    "param": {
+      "describe": "",
+      "productName": "test",
+      "sourceCode": "source_web",
+      "sourceType": "chat"
+    }
+  }
+}

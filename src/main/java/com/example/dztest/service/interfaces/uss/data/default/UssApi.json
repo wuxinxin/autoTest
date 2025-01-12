@@ -1,0 +1,159 @@
+{
+  "addUssgroup":[
+    {
+      "tag":"新增呼叫中心技能组-新名字",
+      "param":{
+        "tenantId":"87462158132343186600590049"
+      },
+      "body":{
+        "emailAbility": false,
+        "groupName":"speech200",
+        "speechAbility":true,
+        "onlineAbility":false,
+        "speechDid":"1070678044124783",
+        "speechAcw":15,
+        "speechRestNumber":10,
+        "speechQueueOverflowSwitch":false,
+        "speechOverflowQueueSize":0,
+        "speechOverflowGroupId":"",
+        "speechType":1,
+        "workorderAbility":false,
+        "videoAbility":false,
+        "speechRestLastTime":30
+      }
+    },
+    {
+      "tag":"新增呼叫中心技能组-新名字",
+      "param":{
+        "tenantId":"87462158132343186600590049"
+      },
+      "body":{
+        "emailAbility": false,
+        "groupName":"aaaa",
+        "speechAbility":false,
+        "onlineAbility":false,
+        "speechDid":"",
+        "speechAcw":15,
+        "speechRestNumber":10,
+        "speechRestLastTime":30,
+        "speechQueueOverflowSwitch":false,
+        "speechOverflowQueueSize":0,
+        "speechOverflowGroupId":"",
+        "speechType":1,
+        "workorderAbility":true,
+        "videoAbility":false
+      }
+    },
+    {
+      "tag":"新增在线客服技能组-新名字",
+      "param":{
+        "tenantId":"87462158132343186600590049"
+      },
+      "body":{
+        "emailAbility": false,
+        "groupName":"online1000",
+        "speechAbility":false,
+        "onlineAbility":true,
+        "speechDid":"202025",
+        "speechAcw":15,
+        "speechRestNumber":10,
+        "speechQueueOverflowSwitch":false,
+        "speechOverflowQueueSize":0,
+        "speechOverflowGroupId":"",
+        "speechType":1,
+        "workorderAbility":false,
+        "videoAbility":false,
+        "speechRestLastTime":30
+      }
+    },
+    {
+      "tag":"新增呼叫中心技能组-老名字",
+      "header": {
+        "Content-Type": "application/json"
+      },
+      "param":{
+        "tenantId":"87462158132343186600590049"
+      },
+      "body":{
+        "mode": "raw",
+        "raw": {
+          "emailAbility": false,
+          "groupName":"测试new10",
+          "onlineAbility":false,
+          "speechAbility":true,
+          "speechAcw":15,
+          "speechDid":"15",
+          "speechOverflowGroupId":"",
+          "speechOverflowQueueSize":0,
+          "speechQueueOverflowSwitch":false,
+          "speechRestLastTime":30,
+          "speechRestNumber":10,
+          "speechType":1,
+          "videoAbility":false,
+          "workorderAbility":false
+        }
+      }
+    },
+    {
+      "tag":"新增呼叫中心技能组-formdata",
+      "header": {
+        "Content-Type": "application/json"
+      },
+      "param":{
+        "tenantId":"87462158132343186600590049"
+      },
+      "body":{
+        "mode": "form-data",
+        "formdata": {
+          "groupName":"测试new10",
+          "onlineAbility":false
+        }
+      }
+    }
+  ],
+
+  "putUssgroup":[
+    {
+      "tag":"更新呼叫中心技能组-同名",
+      "param":{
+        "id": 910001008,
+        "groupId": "f48ea440a6ba4b3287266807cee64f97",
+        "tenantId":"msxf1653967325378538b6d4b"
+      },
+      "body": {
+        "emailAbility": false,
+        "groupName": "测试1000",
+        "id": 910001008,
+        "speechDid": "1070678044124783",
+        "onlineAbility": false,
+        "speechAbility": true,
+        "speechAcw": 15,
+        "speechOverflowGroupId": "",
+        "speechOverflowQueueSize": 0,
+        "speechQueueOverflowSwitch": false,
+        "speechRestNumber": 15,
+        "speechType": 1,
+        "videoAbility": false,
+        "workorderAbility": false
+      }
+    },
+    {
+      "tag":"更新在线客服技能组-同名",
+      "param":{
+        "id":4947,
+        "groupId": "f48ea440a6ba4b3287266807cee64f97",
+        "tenantId":"87462158132343186600590049"
+      },
+      "body":{
+        "emailAbility": false,
+        "id":4947,
+        "groupName":"20211229-0912766ff22",
+        "speechAbility":false,
+        "onlineAbility":true,
+        "workorderAbility":false,
+        "videoAbility":false
+      }
+    }
+  ]
+
+}

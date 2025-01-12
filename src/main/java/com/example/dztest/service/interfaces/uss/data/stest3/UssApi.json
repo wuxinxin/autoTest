@@ -1,0 +1,89 @@
+{
+  "addUssgroup-bak":[
+    {
+      "tag":"新增呼叫中心技能组-新名字",
+      "param":{
+        "tenantId":"87462158132343186600590049"
+      },
+      "body":{
+          "groupName":"测试1000",
+          "onlineAbility":false,
+          "speechAbility":true,
+          "speechAcw":15,
+          "speechDid":"15",
+          "speechOverflowGroupId":"",
+          "speechOverflowQueueSize":0,
+          "speechQueueOverflowSwitch":false,
+          "speechRestLastTime":30,
+          "speechRestNumber":10
+      }
+    },
+    {
+      "tag":"新增呼叫中心技能组-老名字",
+      "header": {
+        "Content-Type": "application/json"
+      },
+      "param":{
+        "tenantId":"87462158132343186600590049"
+      },
+      "body":{
+        "mode": "raw",
+        "raw": {
+          "groupName":"测试new10",
+          "onlineAbility":false,
+          "speechAbility":true,
+          "speechAcw":15,
+          "speechDid":"15",
+          "speechOverflowGroupId":"",
+          "speechOverflowQueueSize":0,
+          "speechQueueOverflowSwitch":false,
+          "speechRestLastTime":30,
+          "speechRestNumber":10,
+          "speechType":1,
+          "videoAbility":false,
+          "workorderAbility":false
+        }
+      }
+    },
+    {
+      "tag":"新增呼叫中心技能组-formdata",
+      "header": {
+        "Content-Type": "application/json"
+      },
+      "param":{
+        "tenantId":"87462158132343186600590049"
+      },
+      "body":{
+        "mode": "form-data",
+        "formdata": {
+          "groupName":"测试new10",
+          "onlineAbility":false
+        }
+      }
+    }
+  ],
+
+  "putUssgroup-bak":{
+    "tag":"更新呼叫中心技能组-同名",
+    "param":{
+      "id": 4772,
+      "groupId": "f48ea440a6ba4b3287266807cee64f97",
+      "tenantId":"87462158132343186600590049"
+    },
+    "body":{
+      "groupName": "测试1000",
+      "id": 4772,
+      "onlineAbility": false,
+      "speechAbility": true,
+      "speechAcw": 15,
+      "speechDid": "15",
+      "speechOverflowGroupId": "",
+      "speechOverflowQueueSize": 0,
+      "speechQueueOverflowSwitch": false,
+      "speechRestNumber": 15,
+      "speechType": 1,
+      "videoAbility": false,
+      "workorderAbility": false
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "getSmsRecordAll": {
+    "param": {
+      "sendType": "MANUAL",
+      "pageSize": 100,
+      "pageNum": 1,
+      "endTime": "2022-05-24 23:59:59",
+      "startTime": "2022-05-24 00:00:00"
+    }
+  }
+}

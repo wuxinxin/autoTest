@@ -1,0 +1,32 @@
+{
+  "searchUser": {
+    "param": {
+      "pageNo": 1,
+      "pageSize": 10,
+      "searchInfo": "",
+      "status": ""
+    }
+  },
+  "addUser": {
+    "param": {
+      "country": "CN",
+      "name": "",
+      "email": "",
+      "phone": "",
+      "empno": "",
+      "roleIds": "",
+      "loginCheck": 0
+    }
+  },
+  "putUser": {
+    "param": {
+      "country": "CN",
+      "name": "",
+      "email": "",
+      "phone": "",
+      "empno": "",
+      "roleIds": "",
+      "loginCheck": 0
+    }
+  }
+}

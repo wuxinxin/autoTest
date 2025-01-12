@@ -1,0 +1,20 @@
+{
+  "train": {
+    "param": {
+      "robotId": "NEWfab49dc26432ab220e639d9cf9b45"
+    }
+  },
+  "progress": {
+    "param": {
+      "robotId": "NEWfab49dc26432ab220e639d9cf9b45",
+      "modelIds": "ea1cee04aa4a442294393f29ba7dc510"
+    }
+  },
+  "history": {
+    "param": {
+      "robotId": "NEW8ca66d0f34b949dc5d4d7337b3acb",
+      "page": 1,
+      "pageSize": 20
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "getOutboundTaskCustomerList": {
+    "param": {
+      "pageNum": 1,
+      "pageSize": 20,
+      "query": "",
+      "callStatus": "",
+      "limitId": 0
+    }
+  }
+}

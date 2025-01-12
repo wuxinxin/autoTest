@@ -1,0 +1,354 @@
+{
+  "save": {
+    "body": {
+      "name": "robotAuto",
+      "industryCode": "10",
+      "industryName": "电商",
+      "robotType": "1",
+      "outboundMaxDurationSwitch": false
+    }
+  },
+  "queryForPage": {
+    "param": {
+      "time": "1652321869188",
+      "pageNum": 1,
+      "pageSize": 24,
+      "nameStr": "Auto"
+    },
+    "deleteRobotToCollection": {
+      "param": {
+        "robotId": "700000029"
+      }
+    }
+  },
+  "finalDelete": {
+    "param": {
+      "id": "700000031"
+    }
+  },
+  "newAnswerQuestion": {
+    "body": {
+      "robotId": "NEW6b6a2d1614fad8bbca13e73e51f3f",
+      "newSimilarityList": [
+      ],
+      "similarityList": [
+      ],
+      "keywordList": [
+      ],
+      "answerList": [
+        {
+          "uuid": 501.9186412756538,
+          "answer": "天气很好",
+          "listAnswerData": ""
+        }
+      ],
+      "relationList": [
+      ],
+      "regularList": [
+      ],
+      "classification": {
+        "id": "",
+        "categoryId": 400007676,
+        "permanent": true,
+        "standardAsk": "今天天气怎么样",
+        "validStartTime": "",
+        "validEndTime": "",
+        "replyMethod": 2,
+        "sessionLabelId": "",
+        "status": 0,
+        "sessionLabelName": "",
+        "replyOperation": 0
+      },
+      "flowEngine": {
+        "operationType": 1,
+        "targetMainFlowDraftId": "",
+        "targetSubFlowDraftId": ""
+      }
+    }
+  },
+  "tree": {
+    "param": {
+      "robotId": "700000400",
+      "filterParam": "",
+      "type": 1
+    }
+  },
+  "uniteRecommendList": {
+    "param": {
+      "question": "robotAuto",
+      "robotId": "NEW0ec5cc24b45d6977d33df00ddc0d8",
+      "LOCAL_TOKEN": "RobotTestBearereyJ0eXBlIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJ0ZW5hbnRJZCI6Im1zeGYxNTcxODM1Mzk5OTE2NmQ0YjhiZDUiLCJyb2JvdElkIjoiTkVXMGVjNWNjMjRiNDVkNjk3N2QzM2RmMDBkZGMwZDgifQ.k_APst8XaKQ_TqcnLfmyGU5rJFYLD-B0NU6TQa05tLQ"
+    }
+  },
+  "newHxKnowledge": {
+    "body": {
+      "robotId": "NEW1cd0e37a14a2386273f50eda72151",
+      "greeting": {
+        "replyMethod": 1,
+        "status": 0,
+        "standardAsk": "天气如何",
+        "categoryId": 700705531
+      },
+      "similarityList": [
+      ],
+      "answerList": [
+        {
+          "uuid": 1662451535751,
+          "answer": "<p>很好</p>",
+          "answerType": 0
+        }
+      ]
+    }
+  },
+  "newTaskPurpose": {
+    "body": {
+      "robotId": "NEWbd8e70d3e4540909ef98fe1931e3d",
+      "intention": {
+        "name": "",
+        "keyword": "",
+        "keywordList": [
+        ],
+        "expressionList": [
+        ]
+      },
+      "expressionList": [
+        {
+          "newexpression": "",
+          "expression": "",
+          "isEdit": false,
+          "operation": "add",
+          "time": 1663058133051
+        }
+      ],
+      "deleteAllExpression": false
+    }
+  },
+  "intentionList": {
+    "param": {
+      "pageNum": 1,
+      "pageSize": 20,
+      "robotId": ""
+    }
+  },
+  "entityAddOrEdit": {
+    "body": {
+      "decryptionRange":{
+        "similar":1,
+        "keyword":1,
+        "answer":1
+      },
+      "details": [
+        {
+          "id": "",
+          "value": "华为手机",
+          "synonym": "",
+          "introduce": "",
+          "regexList": [
+          ],
+          "operateType": "add",
+          "entityValueCode": ""
+        }
+      ],
+      "entityCode": "",
+      "name": "手机",
+      "type": 1,
+      "robotId": "NEWcecd6618546b3af39503927eff799",
+      "variableName": ""
+    }
+  },
+  "entityList": {
+    "body": {
+      "robotId": "NEWcecd6618546b3af39503927eff799",
+      "pageNum": 1,
+      "pageSize": 20,
+      "entityName": ""
+    }
+  },
+  "regEntityAddOrEdit": {
+    "body": {
+      "decryptionRange":{
+        "similar":1,
+        "keyword":1,
+        "answer":1
+      },
+      "details": [
+        {
+          "id": "",
+          "value": "",
+          "introduce": "",
+          "regexList": [
+            {
+              "regex": "*球"
+            }
+          ],
+          "entityValueCode": ""
+        }
+      ],
+      "entityCode": "",
+      "name": "球",
+      "type": 2,
+      "robotId": "NEWcecd6618546b3af39503927eff799",
+      "variableName": ""
+    }
+  },
+  "attributeAddOrEdit": {
+    "body": {
+      "decryptionRange":{
+        "similar":1,
+        "keyword":1,
+        "answer":1
+      },
+      "robotId": "NEW49f79c1ba4d83a5f01a27c55f7325",
+      "attributeName": "aaaa",
+      "attributeCode": "",
+      "script": "",
+      "similarityList": [
+      ]
+    }
+  },
+  "attributeList": {
+    "body": {
+      "robotId": "NEWcecd6618546b3af39503927eff799",
+      "pageNum": 1,
+      "pageSize": 20,
+      "attributeName": ""
+    }
+  },
+  "robotEntities": {
+    "body": {
+      "robotId": "NEWcecd6618546b3af39503927eff799"
+    }
+  },
+  "tableKnowledgeAdd": {
+    "body": {
+      "decryptionRange":{
+        "similar":1,
+        "keyword":1,
+        "answer":1
+      },
+      "robotId": "NEWcecd6618546b3af39503927eff799",
+      "columnCode": "2c2ae02ce7564bd2804c40d40ba5c194",
+      "repositoryName": "手机表格知识库"
+    }
+  },
+  "tableKnowledgeList": {
+    "body": {
+      "pageNum": 1,
+      "pageSize": 20,
+      "robotId": "NEW37d07527a446db531b88546498d32",
+      "repositoryName": ""
+    }
+  },
+  "tableKnowledgeColumnList": {
+    "body": {
+      "robotId": "NEWda7a9298e451d96b8d943ca5ed02a",
+      "repositoryId": 700047027,
+      "pageSize": 50,
+      "pageNum": 1
+    }
+  },
+  "robotAttributes": {
+    "body": {
+      "robotId": "NEW37d07527a446db531b88546498d32",
+      "repositoryId": 700046002,
+      "headCode": "51f76187608b480ca277f2daf9d89eee"
+    }
+  },
+  "robotEntityValues": {
+    "body": {
+      "robotId": "NEW37d07527a446db531b88546498d32",
+      "repositoryId": 700046002,
+      "headCode": "51f76187608b480ca277f2daf9d89eee",
+      "entityCode": "d986d840332f40c5aa048036118c7f1b"
+    }
+  },
+  "manageAttributeColumn": {
+    "body": {
+      "robotId": "NEWcecd6618546b3af39503927eff799",
+      "repositoryId": 700044001,
+      "headCode": "285fd663e4004e68acab17e4b921fd49",
+      "attributes": [
+        "57e334a4ebe647779df673faac27a176"
+      ]
+    }
+  },
+  "addEntityRawValue": {
+    "body": {
+      "robotId": "NEW7ea4cb3b841c7bacafa5e1c3ba933",
+      "headCode": "36c708034c4643f7b8b503c5b522e6e8",
+      "repositoryId": 700047011,
+      "valueIdList": [
+        707091189
+      ],
+      "code": "206cffa6e9d141ee9cb794e702de6dc0"
+    }
+  },
+  "editKnowledge": {
+    "body": {
+      "abscissa": 1663143220352,
+      "headCode": "fb4bc3d6c6984f62adb561f1fe7d1b8d",
+      "id": null,
+      "ordinate": 1,
+      "replyScript": "<p>华为</p>",
+      "columnCode": "a44293e62b404499b432173b81e924b3",
+      "columnValue": "华为",
+      "robotId": "NEW37d07527a446db531b88546498d32",
+      "repositoryId": 700047001
+    }
+  },
+  "newSameMeanWords": {
+    "body": {
+      "robotId": "NEW33261cfaf458b82b9a73ed48830c1",
+      "standWord": "番茄",
+      "similarWord": "西红柿",
+      "status": 1,
+      "wordType": 1
+    }
+  },
+  "newStopMeanWords": {
+    "body": {
+      "robotId": "NEW33261cfaf458b82b9a73ed48830c1",
+      "standWord": "番茄",
+      "similarWord": "西红柿",
+      "status": 1,
+      "wordType": 1
+    }
+  },
+  "getSameMeanWordsList": {
+    "param": {
+      "pageNum": 0,
+      "pageSize": 40,
+      "wordType": 1,
+      "robotId": "NEW33261cfaf458b82b9a73ed48830c1"
+    }
+  },
+  "classificationList": {
+    "body": {
+      "robotId": "NEWfabeef3444b689721466480b55f0b",
+      "categoryIdList": [
+        "702470109",
+        "702470111",
+        "702470112",
+        "702470113",
+        "702470110"
+      ],
+      "advanceQuery": [
+      ],
+      "pageNum": 1,
+      "pageSize": 20,
+      "orderByTime": 0
+    }
+  },
+  "greetingList": {
+    "body": {
+      "robotId": "NEWfabeef3444b689721466480b55f0b",
+      "pageSize": 20,
+      "pageNum": 1,
+      "categoryIdList": [
+        "702470114",
+        "702470116",
+        "702470115"
+      ]
+    }
+  }
+}

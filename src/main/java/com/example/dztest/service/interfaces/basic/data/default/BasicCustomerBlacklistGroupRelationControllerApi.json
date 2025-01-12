@@ -1,0 +1,42 @@
+{
+  "getBlackGroupMember": {
+    "param": {
+      "groupId": "b17c557e347c47a0920684accb2054ed",
+      "phone": "",
+      "addTimeStart": "",
+      "addTimeEnd": "",
+      "expireTimeStart": "",
+      "expireTimeEnd": "",
+      "source": "",
+      "pageNum": 1,
+      "pageSize": 100
+    }
+  },
+  "addBlackGroup": {
+    "tag": "黑名单组添加",
+    "body": {
+      "expireType": 1,
+      "groupDesc": "",
+      "name": "test",
+      "type": 1
+    }
+  },
+  "addBlackGroupMember":{
+  "tag": "黑名单组添加号码",
+  "body": {
+    "customerRemark": "",
+    "groupIds": [
+      "3c91f42a2f094db580321d5ad02b40c2"
+    ],
+    "isAllSelect": 0,
+    "memberDTOs": [
+      {
+        "customerName": "测试",
+        "phone": "17299990001"
+      }
+    ],
+    "source": 1
+  }
+}
+}
+

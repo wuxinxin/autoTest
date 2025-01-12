@@ -1,0 +1,19 @@
+{
+  "initSessionTest": {
+    "body": {
+      "chatType":1,
+      "robotId":"NEW4932730eb403ca8d692536903ff24",
+      "tenantId":"sina156769024631000490043"
+    }
+  },
+  "answerTest": {
+    "body": {
+      "chatType":1,
+      "ask":"被子",
+      "callRecordId":"400005681",
+      "sessionId":"2022052611221879712200626",
+      "onlineType":"0",
+      "flowCode": "tttt"
+    }
+  }
+}

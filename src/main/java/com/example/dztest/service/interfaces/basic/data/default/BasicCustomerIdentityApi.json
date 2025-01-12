@@ -1,0 +1,113 @@
+{
+  "addCustomerByType": {
+    "body": {
+        "name":"测试大哥10",
+        "phone":"",
+        "customerGroupId":"11df61b6fcdc43519ef419ede75f5ab2",
+        "tag":"",
+        "staffId":"",
+        "principalId":"",
+        "customerStatus":"",
+        "desc":"",
+        "customerClass":"",
+        "custom_field_3":"",
+        "custom_field_4":"",
+        "custom_field_5":"",
+        "custom_field_6":"",
+        "customerType":"",
+        "number":"",
+        "email":"",
+        "telephone":"",
+        "principalName":"",
+        "basicCustomerDictList":[
+          {
+            "dictCode":"name",
+            "value":"测试大哥10",
+            "remark":"姓名"
+          },
+          {
+            "dictCode":"customerGroupId",
+            "value":"11df61b6fcdc43519ef419ede75f5ab2",
+            "remark":"公司"
+          }
+        ],
+        "customerGroupName":"",
+        "departmentIds":""
+      }
+  },
+  "addCustomer": {
+    "body": {
+      "name":"测试大哥10",
+      "phone":"",
+      "customerGroupId":"11df61b6fcdc43519ef419ede75f5ab2",
+      "tag":"",
+      "staffId":"",
+      "principalId":"",
+      "customerStatus":"",
+      "desc":"",
+      "customerClass":"",
+      "custom_field_3":"",
+      "custom_field_4":"",
+      "custom_field_5":"",
+      "custom_field_6":"",
+      "customerType":"",
+      "number":"",
+      "email":"",
+      "telephone":"",
+      "principalName":"",
+      "basicCustomerDictList":[
+        {
+          "dictCode":"name",
+          "value":"测试大哥10",
+          "remark":"姓名"
+        },
+        {
+          "dictCode":"customerGroupId",
+          "value":"11df61b6fcdc43519ef419ede75f5ab2",
+          "remark":"公司"
+        }
+      ],
+      "customerGroupName":"",
+      "departmentIds":""
+    }
+  },
+  "addCustomerByPhone": {
+    "body": {
+      "name": "张三",
+      "customerType": "",
+      "customerClass": "",
+      "customerStatus": "",
+      "number": "",
+      "email": "",
+      "phone": "17298999000",
+      "telephone": "",
+      "tag": "",
+      "staffId": "",
+      "principalId": "",
+      "principalName": "",
+      "basicCustomerDictList": [
+        {
+          "dictCode": "name",
+          "value": "张三",
+          "remark": "姓名"
+        },
+        {
+          "dictCode": "phone",
+          "value": "17298999000",
+          "remark": "手机号"
+        }
+      ],
+      "customerGroupId": "",
+      "desc": "",
+      "customerGroupName": "",
+      "departmentIds": "",
+      "externalId": "",
+      "session_tag": "",
+      "custom_field_1": "",
+      "custom_outbound_session_status": "",
+      "custom_outbound_session_length": "",
+      "custom_outbound_session_last_time": "",
+      "custom_field_2": ""
+    }
+  }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="阿里打断" verbose="1">
+    <test name="阿里打断">
+        <classes>
+            <class name="com.example.dztest.testcase.asrbreak.AliAsrBreak">
+                <methods>
+                    <include name="smartOutCall" description="阿里asr打断"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

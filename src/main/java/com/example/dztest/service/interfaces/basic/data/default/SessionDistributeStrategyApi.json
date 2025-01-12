@@ -1,0 +1,154 @@
+{
+  "addStrategyOnlyArtificial": {
+    "tag": "仅人工客服",
+    "body": {
+        "clsRelationList":[
+
+        ],
+        "conditionList":[
+
+        ],
+        "distributeType":"only_artificial",
+        "name":"test",
+        "id":null,
+        "productRelationList":[
+          {
+            "productId":"64bc17e4af144752b6b6ad8a306b5f82"
+          }
+        ],
+        "robotId":"d64bbf3caae14783b5ed8bfee23f3ecf",
+        "strategyDesc":"",
+        "turnImConfig":{
+          "accessStaff":1912,
+          "requestTurnImNum":1
+        },
+        "welcomeSpeech":"",
+        "imWelcomeSpeech":"<p>欢迎您哇哈哈</p>",
+        "imWelspeechSwitch":1,
+        "directToImSwitch":0,
+        "sessionType": "1"
+    }
+  },
+  "updateStrategyOnlyArtificial": {
+    "tag": "仅人工客服update",
+    "body": {
+      "clsRelationList": [],
+      "conditionList": [],
+      "distributeType": "only_artificial",
+      "name": "仅人工1701",
+      "id": 700271006,
+      "productRelationList": [
+        {
+          "productId": "all"
+        }
+      ],
+      "robotId": "",
+      "strategyDesc": "",
+      "turnImConfig": {
+        "accessStaff": 700145003,
+        "requestTurnImNum": 0
+      },
+      "welcomeSpeech": "",
+      "imWelcomeSpeech": "<p>欢迎您哇哈哈</p>",
+      "imWelspeechSwitch": 1,
+      "directToImSwitch": 0,
+      "sessionType": "1"
+    }
+  },
+
+  "addStrategyOnlyRobot": {
+    "tag": "仅机器人",
+    "body": {
+      "clsRelationList":[
+
+      ],
+      "conditionList":[
+
+      ],
+      "distributeType":"only_robot",
+      "name":"test",
+      "id":null,
+      "productRelationList":[
+        {
+          "productId":"e34043c8c31040e6b267ba1dde44aea2"
+        }
+      ],
+      "robotId":"NEW6a06f0af7440a924a6c93fcd85f5c",
+      "strategyDesc":"",
+      "turnImConfig":{
+        "accessStaff":"all",
+        "requestTurnImNum":0
+      },
+      "welcomeSpeech":"<p>非</p>",
+      "imWelcomeSpeech":"",
+      "imWelspeechSwitch":0,
+      "directToImSwitch":0,
+      "sessionType": "1"
+    }
+
+
+  },
+
+
+  "addStrategyRobotFirst": {
+    "tag": "机器人优先",
+    "body": {
+      "clsRelationList":[
+
+      ],
+      "conditionList":[
+
+      ],
+      "distributeType":"robot_first",
+      "name":"示范法",
+      "id":null,
+      "productRelationList":[
+        {
+          "productId":"e34043c8c31040e6b267ba1dde44aea2"
+        }
+      ],
+      "robotId":"NEW6a06f0af7440a924a6c93fcd85f5c",
+      "strategyDesc":"大发发",
+      "turnImConfig":{
+        "accessStaff":910005007,
+        "requestTurnImNum":0
+      },
+      "welcomeSpeech":"<p>士大夫</p>",
+      "imWelcomeSpeech":"",
+      "imWelspeechSwitch":0,
+      "directToImSwitch":0,
+      "sessionType": "1"
+    }
+  },
+
+  "addStrategyArtificialFirst": {
+    "tag": "人工优先",
+    "body": {
+      "clsRelationList":[
+
+      ],
+      "conditionList":[
+
+      ],
+      "distributeType":"artificial_first",
+      "name":"人工优先",
+      "id":null,
+      "productRelationList":[
+        {
+          "productId":"e34043c8c31040e6b267ba1dde44aea2"
+        }
+      ],
+      "robotId":"NEW6a06f0af7440a924a6c93fcd85f5c",
+      "strategyDesc":"",
+      "turnImConfig":{
+        "accessStaff":910006006,
+        "requestTurnImNum":0
+      },
+      "welcomeSpeech":"<p>人工优先欢迎您</p>",
+      "imWelcomeSpeech":"",
+      "imWelspeechSwitch":0,
+      "directToImSwitch":0,
+      "sessionType": "1"
+    }
+  }
+}

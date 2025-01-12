@@ -1,0 +1,23 @@
+{
+  "getCommunicate": {
+    "param": {
+      "pageNum": 0,
+      "pageSize": 20,
+      "queryMode": 1,
+      "callType": 2,
+      "startDate": "20211115",
+      "endDate": "20211115",
+    }
+  },
+  "getCommunicateByName": {
+    "param": {
+      "pageNum": 0,
+      "pageSize": 20,
+      "queryMode": 1,
+      "callType": 2,
+      "startDate": "20211115",
+      "endDate": "20211115",
+      "name": "呼入测试01"
+    }
+  }
+}

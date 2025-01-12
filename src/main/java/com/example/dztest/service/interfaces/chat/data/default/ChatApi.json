@@ -1,0 +1,119 @@
+{
+  "questionFill": {
+    "param": {
+      "ask": "你好",
+      "sessionId": "2022052815184679512200013",
+      "LOCAL_TOKEN": "RobotTestBearereyJ0eXBlIjoiSldUIiwiYWxnIjoiSFMyNTYifQ"
+    }
+  },
+  "initWindowSession": {
+    "param": {
+      "testOnly": true
+    },
+    "body": {
+      "mode": "form-data",
+      "form-data": {
+        "IP": "0.0.0.0",
+        "OS": "Windows 10.0",
+        "USER_AGENT": "Chrome 105.0.0.0",
+        "SEARCH_WORD":"",
+        "ACCESS_PATH": "https://dztestportal.dezhubot.com/",
+        "mode": "h5",
+        "token":"",
+        "time": 1662620669923,
+        "testRobotType": 2,
+        "onlineType": 0,
+        "analysis": true,
+        "tenantId": "msxf165587296591500490043",
+        "robotId": "NEW1c78908504084a4de582efc68152c",
+        "LOCAL_TOKEN": "",
+        "externalId": "dezhuf9408052fe65431cabf2eebaf535be7d"
+      }
+    }
+  },
+  "initSession": {
+    "body": {
+      "mode": "form-data",
+      "form-data": {
+        "token": "bEZZr2mMrUVv",
+        "showChat": true,
+        "layout": true
+      }
+    }
+  },
+  "initCSession": {
+    "body": {
+      "mode": "form-data",
+      "form-data": {
+        "token": "bEZZr2mMrUVv",
+        "LOCAL_TOKEN": "bEZZr2mMrUVv",
+        "showChat": true,
+        "layout": true
+      }
+    }
+  },
+  "test": {
+    "body": {
+      "ask":"APP如何下载",
+      "nlpData":{
+
+      },
+      "extParm":{
+        "mode":"h5",
+        "token":"RobotTestBearereyJ0eXBlIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJ0ZW5hbnRJZCI6Im1zeGYxNTcxODM1Mzk5OTE2NmQ0YjhiZDUiLCJyb2JvdElkIjoiTkVXZjEzY2ZkZDVmNDc3ODgzMmJkYmFjNzhhOWI5ZjUifQ.7x0KVFOV-rEL6KGNGAOqSKPknvGUzbiPftsMxRxwkyo",
+        "testOnly":"true",
+        "time":"1655366357610",
+        "testRobotType":"2",
+        "onlineType":"0",
+        "analysis":"true",
+        "tenantId":"msxf15718353999166d4b8bd5",
+        "robotId":"NEWf13cfdd5f4778832bdbac78a9b9f5",
+        "LOCAL_TOKEN":"RobotTestBearereyJ0eXBlIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJ0ZW5hbnRJZCI6Im1zeGYxNTcxODM1Mzk5OTE2NmQ0YjhiZDUiLCJyb2JvdElkIjoiTkVXZjEzY2ZkZDVmNDc3ODgzMmJkYmFjNzhhOWI5ZjUifQ.7x0KVFOV-rEL6KGNGAOqSKPknvGUzbiPftsMxRxwkyo",
+        "externalId":"dezhu48e05960b8724752968fc4902656f1ad"
+      },
+      "sessionId":"57CCFB5DA5EE77A3B1579E3BC330299A",
+      "LOCAL_TOKEN":"RobotTestBearereyJ0eXBlIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJ0ZW5hbnRJZCI6Im1zeGYxNTcxODM1Mzk5OTE2NmQ0YjhiZDUiLCJyb2JvdElkIjoiTkVXZjEzY2ZkZDVmNDc3ODgzMmJkYmFjNzhhOWI5ZjUifQ.7x0KVFOV-rEL6KGNGAOqSKPknvGUzbiPftsMxRxwkyo"
+    }
+  },
+  "testWindow": {
+    "body": {
+      "ask":"SQ",
+      "nlpData":{
+
+      },
+      "extParm":{
+        "mode":"h5",
+        "token":"RobotTestBearereyJ0eXBlIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJ0ZW5hbnRJZCI6Im1zeGYxNjU1ODcyOTY1OTE1MDA0OTAwNDMiLCJyb2JvdElkIjoiTkVXZDk1MDBjZDk0NDAxOWE2ZmMyZjMzZWQ2NTMzY2YifQ.FxkOV5UFt7Ec7Jp54Nlw1GcJA1pPnKGNcCulPZQ9mxs",
+        "testOnly":"true",
+        "time":"1662705153276",
+        "testRobotType":"2",
+        "onlineType":"0",
+        "analysis":"true",
+        "tenantId":"msxf165587296591500490043",
+        "robotId":"NEWd9500cd944019a6fc2f33ed6533cf",
+        "LOCAL_TOKEN":"RobotTestBearereyJ0eXBlIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJ0ZW5hbnRJZCI6Im1zeGYxNjU1ODcyOTY1OTE1MDA0OTAwNDMiLCJyb2JvdElkIjoiTkVXZDk1MDBjZDk0NDAxOWE2ZmMyZjMzZWQ2NTMzY2YifQ.FxkOV5UFt7Ec7Jp54Nlw1GcJA1pPnKGNcCulPZQ9mxs",
+        "externalId":"dezhuf9408052fe65431cabf2eebaf535be7d"
+      },
+      "sessionId":"80F479E53DBD1FCFCF049EC72BA5A506",
+      "LOCAL_TOKEN":"RobotTestBearereyJ0eXBlIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJ0ZW5hbnRJZCI6Im1zeGYxNjU1ODcyOTY1OTE1MDA0OTAwNDMiLCJyb2JvdElkIjoiTkVXZDk1MDBjZDk0NDAxOWE2ZmMyZjMzZWQ2NTMzY2YifQ.FxkOV5UFt7Ec7Jp54Nlw1GcJA1pPnKGNcCulPZQ9mxs"
+    }
+  },
+  "answer": {
+    "body": {
+      "ask":"啊",
+      "nlpData":{
+
+      },
+      "uuid":"9CC578B747B59DE10EBEA4A41FA33795",
+      "extParm":{
+        "token":"FNFriqNj6J7r",
+        "showChat":"true",
+        "layout":"true",
+        "LOCAL_TOKEN":"FNFriqNj6J7r",
+        "externalId":"dezhuf9408052fe65431cabf2eebaf535be7d"
+      },
+      "sessionId":"209F3558E5902C9F4A67EF6E5140098F",
+      "LOCAL_TOKEN":"FNFriqNj6J7r"
+    }
+  }
+}

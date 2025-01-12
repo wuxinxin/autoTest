@@ -1,0 +1,17 @@
+{
+  "robotTest": {
+    "body": {
+      "name": "role",
+      "nickname": "role@auto.com",
+      "email": "role@auto.com",
+      "phone": "18815513603",
+      "empno": "3223233",
+      "id": 700044001,
+      "roleIds": [
+        700023007
+      ],
+      "departmentIds": [
+      ]
+    }
+  }
+}

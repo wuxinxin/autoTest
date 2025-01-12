@@ -1,0 +1,316 @@
+{
+  "conditionInitialConfig": {
+    "param": {
+      "robotId": "NEWfab49dc26432ab220e639d9cf9b45"
+    }
+  },
+  "getListing": {
+    "param": {
+      "mainFlowId": "da8e3f9691614f5ea40fc02624153bbb"
+    }
+  },
+  "mainFlow": {
+    "body": {
+      "flowName": "auto",
+      "robotId": "NEW0ba3a41db41ce9a658cfd450e5d4b"
+    }
+  },
+  "listOutBoundMainFlows": {
+    "param": {
+      "robotId": "NEWfab49dc26432ab220e639d9cf9b45",
+      "isOffOnline": 0
+    }
+  },
+  "initSessionTest": {
+    "body": {
+      "chatType": 1,
+      "robotId": "NEW73d8a8714489491f549eade8a788e",
+      "tenantId": "msxf15718353999166d4b8bd5"
+    }
+  },
+  "answerTest": {
+    "body": {
+      "chatType": 1,
+      "ask": "first_call",
+      "callRecordId": "400005612",
+      "sessionId": "2022052415054184022000243",
+      "onlineType": "0",
+      "flowCode": "d6bddbc39e2d416a9c7727129a021052"
+    }
+  },
+  "answerTestQ": {
+    "body": {
+      "chatType":1,
+      "ask":"今天天气怎么样",
+      "callRecordId":"702075022",
+      "sessionId":"2022092714460830701000081",
+      "onlineType":"0"
+    }
+  },
+  "draft": {
+    "body": {
+      "previousCanvas": {
+        "tenantId": "msxf15718353999166d4b8bd5",
+        "mainFlowId": "eff63ef31be743beb5e90509e3cc4178",
+        "flowId": "eff63ef31be743beb5e90509e3cc4178",
+        "flowName": "触发配置",
+        "sortNumber": 1,
+        "triggerSubflow": true,
+        "initialized": true,
+        "canvasInfo": "{\"Dwj520DwjO5_START\":{\"id\":\"Dwj520DwjO5_START\",\"x\":3587,\"y\":3996,\"title\":\"开始节点\",\"name\":\"开始节点\",\"type\":\"start\",\"noDeleteItem\":true,\"list\":[{\"id\":\"XHF520DwjO34_INI—POST\",\"name\":\"默认\",\"enabled\":true,\"branchType\":\"START_NODE_DEFAULT\",\"editFlag\":true}],\"nodeRole\":\"HEAD\",\"nodeType\":\"START_NODE\",\"titleHtml\":\"\",\"htmlTemplate\":\"\",\"outputs\":{\"Dwj520DwjO5_START-XHF520DwjO34_INI—POST\":{\"itemId\":\"qxdjXCDLWIV9-16535290\",\"boxId\":\"Dwj520DwjO5_START-XHF520DwjO34_INI—POST\"}}},\"qxdjXCDLWIV9-16535290\":{\"type\":\"goTo\",\"title\":\"跳转节点\",\"name\":\"跳转节点\",\"nodeType\":\"GOTO_NODE\",\"nodeRole\":\"UNKNOWN\",\"desc\":\"先退出\",\"htmlWidget\":\"<div class=\\\"ui-tips\\\">跳转节点：回复使用者后执行跳转或操作命令<div class=\\\"ui-arrow\\\"></div></div>\",\"htmlTemplate\":\"<div class=\\\"operation-wrap\\\"><span>下一步：</span><div><p class=\\\"operation\\\">退出场景</p><p class=\\\"operation\\\">语音挂机：是</p></div></div>\",\"id\":\"qxdjXCDLWIV9-16535290\",\"x\":3636,\"y\":4206,\"titleHtml\":\"\",\"inputs\":{\"Dwj520DwjO5_START-XHF520DwjO34_INI—POST\":{\"itemId\":\"Dwj520DwjO5_START\",\"boxId\":\"Dwj520DwjO5_START-XHF520DwjO34_INI—POST\"}},\"tags\":{}}}",
+        "nodes": {
+          "qxdjXCDLWIV9-16535290": {
+            "base": {
+              "flowId": "eff63ef31be743beb5e90509e3cc4178",
+              "nodeId": "qxdjXCDLWIV9-16535290",
+              "nodeName": "跳转节点",
+              "nodeUniqueId": "726fde0a90641d7e0c765073f82d1cc3bec6021f045fdcd7b54616c4a98b52d9",
+              "nodeType": "GOTO_NODE",
+              "nodeRole": "TAIL"
+            },
+            "goTo": {
+              "replyConfig": {
+                "standardReply": "",
+                "standardReplies": [
+                  "先退出"
+                ]
+              },
+              "infoCollectionConfig": {
+                "infoCollectionType": "DIRECT_ASSIGNMENT",
+                "targetVariantId": "",
+                "syncToCustomerAttribute": false,
+                "syncToCustomerAttributeId": "",
+                "directAssignmentValue": "",
+                "allowInfoCollection": false
+              },
+              "gotoOp": {
+                "opType": "STOP",
+                "audioStopOpToHangUp": true,
+                "fixedSubflowName": "",
+                "fixedMainFlowName": "",
+                "fixedSubflowId": "",
+                "fixedMainFlowId": "",
+                "transferRobotSceneScopes": [
+                  "AUDIO"
+                ],
+                "transferToAudioPriority": 1,
+                "transferToIMWay": "RECOMMEND_BUTTON",
+                "gotoExternalUrl": ""
+              },
+              "extensionConfig": {
+                "intentTag": {
+                },
+                "customerTagGroup": [
+                ],
+                "maxKeypressLengthSettingEnabled": false,
+                "maxKeypressLength": 0
+              },
+              "workOrderInfo": {
+                "workTypeId": "",
+                "workTypeName": "",
+                "enabled": false,
+                "fields": [
+                ]
+              }
+            }
+          },
+          "Dwj520DwjO5_START": {
+            "base": {
+              "flowId": "eff63ef31be743beb5e90509e3cc4178",
+              "nodeId": "Dwj520DwjO5_START",
+              "nodeName": "开始节点",
+              "nodeUniqueId": "95d931aaaf0ca343f397d523b40a4b81df66502e60b81c27c2d475782b02d3c3",
+              "nodeType": "START_NODE",
+              "nodeRole": "HEAD"
+            },
+            "start": {
+              "branches": [
+                {
+                  "base": {
+                    "enabled": true,
+                    "flowId": "eff63ef31be743beb5e90509e3cc4178",
+                    "nodeId": "Dwj520DwjO5_START",
+                    "branchId": "XHF520DwjO34_INI—POST",
+                    "branchName": "默认",
+                    "branchType": "START_NODE_DEFAULT",
+                    "targetNodeId": "qxdjXCDLWIV9-16535290",
+                    "sortNumber": 1
+                  },
+                  "condition": {
+                    "hasCondition": true,
+                    "conditionGroups": [
+                      [
+                        {
+                          "firstLevelConditionType": "USER_INPUT",
+                          "conditionOp": "EQ",
+                          "targetConditionValue": "1"
+                        }
+                      ]
+                    ]
+                  },
+                  "infoCollection": {
+                    "infoCollectionResultType": "COLLECTION_FAILURE"
+                  },
+                  "keyNavigation": {
+                    "navigationKey": "*"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "valid": true,
+        "hiddenStartNode": false
+      },
+      "currentCanvas": {
+        "canvasInfo": "{\"Dwj520DwjO5_START\":{\"id\":\"Dwj520DwjO5_START\",\"x\":3587,\"y\":3996,\"title\":\"开始节点\",\"name\":\"开始节点\",\"type\":\"start\",\"noDeleteItem\":true,\"list\":[{\"id\":\"XHF520DwjO34_INI—POST\",\"name\":\"默认\",\"enabled\":true,\"branchType\":\"START_NODE_DEFAULT\",\"editFlag\":true}],\"nodeRole\":\"HEAD\",\"nodeType\":\"START_NODE\",\"titleHtml\":\"\",\"htmlTemplate\":\"\",\"outputs\":{\"Dwj520DwjO5_START-XHF520DwjO34_INI—POST\":{\"itemId\":\"qxdjXCDLWIV9-16535290\",\"boxId\":\"Dwj520DwjO5_START-XHF520DwjO34_INI—POST\"}}},\"qxdjXCDLWIV9-16535290\":{\"type\":\"goTo\",\"title\":\"跳转节点\",\"name\":\"跳转节点\",\"nodeType\":\"GOTO_NODE\",\"nodeRole\":\"UNKNOWN\",\"desc\":\"先退出\",\"htmlWidget\":\"<div class=\\\"ui-tips\\\">跳转节点：回复使用者后执行跳转或操作命令<div class=\\\"ui-arrow\\\"></div></div>\",\"htmlTemplate\":\"<div class=\\\"operation-wrap\\\"><span>下一步：</span><div><p class=\\\"operation\\\">退出场景</p><p class=\\\"operation\\\">语音挂机：是</p></div></div>\",\"id\":\"qxdjXCDLWIV9-16535290\",\"x\":3636,\"y\":4206,\"titleHtml\":\"\",\"inputs\":{\"Dwj520DwjO5_START-XHF520DwjO34_INI—POST\":{\"itemId\":\"Dwj520DwjO5_START\",\"boxId\":\"Dwj520DwjO5_START-XHF520DwjO34_INI—POST\"}},\"tags\":{}}}",
+        "nodes": {
+          "Dwj520DwjO5_START": {
+            "base": {
+              "flowId": "eff63ef31be743beb5e90509e3cc4178",
+              "nodeId": "Dwj520DwjO5_START",
+              "nodeName": "开始节点",
+              "nodeUniqueId": "95d931aaaf0ca343f397d523b40a4b81df66502e60b81c27c2d475782b02d3c3",
+              "nodeType": "START_NODE",
+              "nodeRole": "HEAD"
+            },
+            "start": {
+              "branches": [
+                {
+                  "base": {
+                    "enabled": true,
+                    "flowId": "eff63ef31be743beb5e90509e3cc4178",
+                    "nodeId": "Dwj520DwjO5_START",
+                    "branchId": "XHF520DwjO34_INI—POST",
+                    "branchName": "默认",
+                    "branchType": "START_NODE_DEFAULT",
+                    "targetNodeId": "qxdjXCDLWIV9-16535290",
+                    "sortNumber": 1
+                  },
+                  "condition": {
+                    "hasCondition": true,
+                    "conditionGroups": [
+                      [
+                        {
+                          "firstLevelConditionType": "USER_INPUT",
+                          "conditionOp": "EQ",
+                          "targetConditionValue": "1"
+                        }
+                      ]
+                    ]
+                  },
+                  "infoCollection": {
+                    "infoCollectionResultType": "COLLECTION_FAILURE"
+                  },
+                  "keyNavigation": {
+                    "navigationKey": "*"
+                  }
+                }
+              ]
+            }
+          },
+          "qxdjXCDLWIV9-16535290": {
+            "base": {
+              "flowId": "eff63ef31be743beb5e90509e3cc4178",
+              "nodeId": "qxdjXCDLWIV9-16535290",
+              "nodeName": "跳转节点",
+              "nodeUniqueId": "726fde0a90641d7e0c765073f82d1cc3bec6021f045fdcd7b54616c4a98b52d9",
+              "nodeType": "GOTO_NODE",
+              "nodeRole": "TAIL"
+            },
+            "goTo": {
+              "replyConfig": {
+                "standardReply": "",
+                "standardReplies": [
+                  "先退出"
+                ]
+              },
+              "infoCollectionConfig": {
+                "infoCollectionType": "DIRECT_ASSIGNMENT",
+                "targetVariantId": "",
+                "syncToCustomerAttribute": false,
+                "syncToCustomerAttributeId": "",
+                "directAssignmentValue": "",
+                "allowInfoCollection": false
+              },
+              "gotoOp": {
+                "opType": "STOP",
+                "audioStopOpToHangUp": true,
+                "fixedSubflowName": "",
+                "fixedMainFlowName": "",
+                "fixedSubflowId": "",
+                "fixedMainFlowId": "",
+                "transferRobotSceneScopes": [
+                  "AUDIO"
+                ],
+                "transferToAudioPriority": 1,
+                "transferToIMWay": "RECOMMEND_BUTTON",
+                "gotoExternalUrl": ""
+              },
+              "extensionConfig": {
+                "intentTag": {
+                },
+                "customerTagGroup": [
+                ],
+                "maxKeypressLengthSettingEnabled": false,
+                "maxKeypressLength": 0
+              },
+              "workOrderInfo": {
+                "workTypeId": "",
+                "workTypeName": "",
+                "enabled": false,
+                "fields": [
+                ]
+              },
+              "branches": [
+              ]
+            }
+          }
+        },
+        "mainFlowId": "eff63ef31be743beb5e90509e3cc4178",
+        "flowName": "触发配置",
+        "initialized": true,
+        "triggerSubflow": true,
+        "valid": true,
+        "flowId": "eff63ef31be743beb5e90509e3cc4178",
+        "sortNumber": 1,
+        "robotId": "NEW0ba3a41db41ce9a658cfd450e5d4b"
+      }
+    }
+  },
+  "publish": {
+    "param": {
+      "mainFlowId": "c46c25a9876440c785a8de6a2b7acc9b"
+    }
+  },
+  "activeOp": {
+    "body": {
+      "active": true,
+      "flowId": "c46c25a9876440c785a8de6a2b7acc9b",
+      "robotId": "NEW0b47902074ab3a48ccc47154c9635"
+    }
+  },
+  "updateMainFlowMark": {
+    "body": {
+      "flowIds": [
+        "ace9fe7c532540bc96cd125757a65fd8",
+        "b5e7e21c6f454d90898e05110705a3a1"
+      ],
+      "robotId": "NEW1a778c0cc41609158eb8e43aff101"
+    }
+  },
+  "batchCopyCallListFromRunningAudioRecords": {
+    "body": {
+      "query":{
+        "pageNum":1,
+        "pageSize":20,
+        "outboundCallTaskId":1,
+        "ids":[
+        ],
+        "exportAll":true
+      },
+      "sourceTaskId":700199001,
+      "targetTaskId":700199001
+    }
+  }
+}

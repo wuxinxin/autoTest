@@ -1,0 +1,12 @@
+{
+  "addChatSummary": {
+    "body": {
+      "parentId": 0,
+      "summaries": [
+        {
+          "summary": "一级分类1"
+        }
+      ]
+    }
+  }
+}

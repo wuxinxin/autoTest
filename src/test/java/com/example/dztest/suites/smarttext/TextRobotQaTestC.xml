@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="[p0]智能文本-应答C端验证" verbose="1">
+    <test name="智能文本C端应答">
+        <parameter name="out_account" value="hc01@auto.com"></parameter>
+        <parameter name="out_pwd" value="123456"></parameter>
+
+        <classes>
+            <class name="com.example.dztest.testcase.smarttext.TextRobotQaTestC">
+                <methods>
+                    <include name="QaKnowledgeQa" description="问答知识应答testcase-view-2618"/>
+                    <include name="taskProcessQa" description="任务流程应答testcase-view-2630"/>
+                    <include name="twoTableQa" description="二维表应答testcase-view-2628"/>
+                    <include name="itemQa" description="属性应答testcase-view-2624"/>
+                    <include name="expressQa" description="正则实体应答testcase-view-2623"/>
+                    <include name="enumEntityQa" description="枚举实体应答testcase-view-2622"/>
+                    <include name="HxEntityQa" description="寒暄实体应答testcase-view-2619"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.example.dztest.extentreport.ExtentReportListener"></listener>
+    </listeners>
+</suite>

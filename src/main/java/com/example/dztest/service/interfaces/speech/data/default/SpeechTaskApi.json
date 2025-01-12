@@ -1,0 +1,75 @@
+{
+  "createAutoOutboundTask": {
+      "body":{
+        "mode": "raw",
+        "raw": {
+          "uploadRes":{
+
+          },
+          "taskType":1,
+          "multiplyPower":1,
+          "sendNumberStrategy":0,
+          "speechTaskAgentDtos":[
+
+          ],
+          "outboundListSource":1,
+          "skillSetId":"1778538378325760",
+          "maxRingingDuration":45,
+          "acw":10,
+          "taskName":"tests1",
+          "uploadFilename":"名单导入模板-得助智能.xlsx",
+          "fileId":"2021112216595653517600063",
+          "totalmount":1,
+          "successAmount":1,
+          "customerAmount":1,
+          "failAmount":0,
+          "outboundNumberGroupId":"1070678044124493",
+          "taskExecStartDate":"2021-11-22",
+          "taskExecEndDate":"2021-11-22",
+          "autoOutboundSwitch":0,
+          "autoOutboundTimeList":0,
+          "autoOutboundInterval":0,
+          "speechTaskExecTimeList":[
+            {
+              "taskExecTimeStartStr":"00:00:00",
+              "taskExecTimeEndStr":"23:59:00"
+            }
+          ]
+        }
+      }
+    },
+  "createManualOutboundTask": {
+      "body":
+      {
+        "uploadRes":{
+
+        },
+        "taskType":2,
+        "sendNumberStrategy":0,
+        "speechTaskAgentDtos":[
+          {
+            "agentName":"hc01x",
+            "basicUserId":2422,
+            "assignNum":"1",
+            "skillsetsId":"1778538378325760x"
+          }
+        ],
+        "outboundListSource":1,
+        "skillSetId":"1778538378325760",
+        "maxRingingDuration":45,
+        "acw":10,
+        "taskName":"sd112301",
+        "uploadFilename":"名单导入模板-得助智能.xlsx",
+        "fileId":"2021112314232702017600394",
+        "totalmount":1,
+        "customerAmount":1,
+        "successAmount":1,
+        "failAmount":0,
+        "taskExecStartDate":"2021-11-23",
+        "taskExecEndDate":"2021-11-23"
+      }
+    }
+
+
+
+}
